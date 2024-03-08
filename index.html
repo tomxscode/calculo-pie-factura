@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Cálculo PIE Factura</title>
+</head>
+<body>
+    <header>
+        <h1>Cálculo PIE Factura</h1>
+        <input type="number" id="pie" placeholder="Pie">
+    </header>
+    <div class="container">
+        <div class="agregar-linea">
+            <h2>Agregar línea</h2>
+            <input type="number" id="precio" placeholder="Precio">
+            <input type="number" id="descuento" placeholder="Descuento">
+            <button type="button" id="agregar">Agregar</button>
+        </div>
+        <table id="tablaPie">
+            <tbody></tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+    <script src="./src/app.js"></script>
+</body>
+</html>
